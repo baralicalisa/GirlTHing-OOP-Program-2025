@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GTHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="color-lines">
+    <div class="col-4 bg-red"></div>
+    <div class="col-4 bg-purple"></div>
+    <div class="col-4 bg-green"></div>
+  </div>
+
+  <header class="top-bar">
+    <div class="header-top">
+      <div class="contact-info">
+        <a href="tel:+38762719139">
+          <span><img src="images/phone-call.png" alt="Telefon" class="ikona" /> +387 62 719 139</span>
+        </a>
+        <a href="mailto:info@girlthing.ba">
+          <span><img src="images/mail.png" alt="Email" class="ikona" /> info@girlthing.ba</span>
+        </a>
+      </div>
+      
+      <div class="social-icons">
+        <a href="https://www.facebook.com/girlthingtuzla/"><img src="images/facebook.png" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/girlthingtuzla/"><img src="images/instagram.png" alt="Instagram" /></a>
+        <a href="https://www.linkedin.com/company/girlthing/"><img src="images/linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://www.youtube.com/c/girlthing"><img src="images/youtube.png" alt="YouTube" /></a>
+      </div>
+    </div>
+    
+    <div class="header-main">
+      <img src="images/GTHUB.png" alt="GTHub logo" class="logo" />
+      
+      <nav class="main-menu">
+        <a href="#">Početna</a>
+        <a href="#opis">Prostor</a>
+        <a href="#galerija">Galerija</a>
+        <a href="#lokacija">Lokacija</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <header id="hero" class="hero">
+    <div class="hero-content">
+      <h1>Dobrodošli u GTHub</h1>
+      <p>GTHub je prostor za učenje, saradnju i kreativnost za sve studente.</p>
+      <a href="https://girlthing.ba/prijava_gthub" class="btn">Prijavi se</a>
+    </div>
+  </header>
+
+  <section id="opis" class="opis">
+    <h2>Prostor i pogodnosti</h2>
+    <p>
+      GTHub nudi brojne funkcionalnosti koje olakšavaju rad i učenje: besplatan Wi-Fi, računare za zajedničko korištenje, 
+      printer, kafe aparat, klima uređaj, TV za prezentacije, flipchart, i dovoljan broj utičnica raspoređenih oko stolova. 
+      U sklopu prostora se nalazi i toalet samo za naše korisnike. Pristup prostoru biće omogućen putem RFID kartica, a 
+      dodatnu sigurnost studentima pruža i video nadzor unutar prostora.
+    </p>
+  </section>
+
+  <section id="galerija" class="galerija">
+    <h2>Galerija slika</h2>
+    <div class="slike">
+      <img src="images/gthub8.png" alt="GTHub slika 8" />
+      <img src="images/gthub3.jpg" alt="GTHub slika 3" />
+      <img src="images/gthub1.jpeg" alt="GTHub slika 1" />
+      <img src="images/gthub2.jpeg" alt="GTHub slika 2" />
+      <img src="images/gthub4.jpg" alt="GTHub slika 4" />
+      <img src="images/gthub5.jpg" alt="GTHub slika 5" />
+      <img src="images/gthub6.jpg" alt="GTHub slika 6" />
+    </div>
+  </section>
+
+  <section id="lokacija" class="lokacija">
+    <h2>Lokacija</h2>
+    <p>SKPC Mejdan, Tuzla – 2 do 5 min od većine fakulteta.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.642622227247!2d18.6653675!3d44.5371168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475ead10a3b68c3f%3A0xeb18e3ccb18cf8ad!2sSKPC%22MEJDAN%22TUZLA!5e1!3m2!1sen!2sba!4v1753350646475!5m2!1sen!2sba" 
+    width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <section id="kontakt" class="kontakt-section">
+    <h2>Kontaktirajte nas</h2>
+    <form class="kontakt-forma" action="#" method="post">
+      <label for="ime">Ime:</label><br />
+      <input type="text" id="ime" name="ime" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="telefon">Broj telefona:</label><br />
+      <input type="tel" id="telefon" name="telefon" placeholder="+387 6X XXX XXX" /><br />
+
+      <label for="poruka">Poruka:</label><br />
+      <textarea id="poruka" name="poruka" rows="4" required></textarea><br />
+
+      <button type="submit">Pošalji</button>
+    </form>
+
+  </section>
+
+  <footer>
+    <div class="kontakt-info">
+      <p>Kontakt: Lejla Kurt, menadžerica GTHuba</p>
+      <p>Email: <a href="mailto:lejla.kurt@girlthing.ba">lejla.kurt@girlthing.ba</a></p>
+    </div>
+    <div class="logotipi">      
+      <div class="partneri-logo">
+        <a href="https://www.girlthing.ba" target="_blank">
+          <img src="images/gth-logo.png" alt="GirlTHing" />
+        </a>
+        <a href="https://www.fondacijatz.org" target="_blank">
+          <img src="images/ftz-logo.png" alt="Fondacija tuzlanske zajednice" />
+        </a>
+        <a href="https://www.bmz.de/en" target="_blank">
+          <img src="images/bmz-logo.png" alt="Njemačko ministarstvo za ekonomiju i razvoj (BMZ)" />
+        </a>
+        <a href="https://www.freudenbergstiftung.de/en/" target="_blank">
+          <img src="images/freudenberg-logo.png" alt="Freudenberg fondacija" />
+        </a>
+        <a href="https://ziragroup.com" target="_blank">
+          <img src="images/zira-logo.png" alt="Zira" />
+        </a>
+        <a href="https://marvelsoft.net" target="_blank">
+          <img src="images/marvelsoft-logo.png" alt="Marvelsoft" />
+        </a>
+        <a href="https://telemach.ba" target="_blank">
+          <img src="images/telemach-logo.png" alt="Telemach" />
+        </a>
+        <a href="https://fmks.gov.ba/en/homepage/" target="_blank">
+          <img src="images/fmks-logo.png" alt="Federalno ministarstvo kulture i sporta" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
